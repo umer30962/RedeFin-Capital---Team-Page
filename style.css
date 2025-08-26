@@ -88,13 +88,13 @@ header {
 
 
 .hero-content h3 {
-    font-size: clamp(2rem, 0.478vw + 1.847rem, 2.5rem);
+    font-size: clamp(1.5rem, 0.86vw + 1.225rem, 2.4rem);
     line-height: 1.2;
     margin-bottom: 3%;
 }
 
 .hero-content p {
-    font-size: clamp(1rem, 0.287vw + 0.908rem, 1.3rem);
+    font-size:clamp(0.8rem, 0.478vw + 0.647rem, 1.3rem);
     margin-bottom: 3%;
 
 }
