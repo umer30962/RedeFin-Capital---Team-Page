@@ -1,0 +1,645 @@
+/* ------ 768 PX DEVICES ------  */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .container {
+    width: 90% !important;
+    margin: 0 auto !important;
+  }
+
+  header {
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .logo img {
+    width: 100% !important;
+    margin-left: 5% !important;
+  }
+
+  .nav-links ul {
+    display: none !important;
+  }
+
+  #menu_icon {
+    display: block !important;
+    cursor: pointer !important;
+    color: white !important;
+    font-size: clamp(0.8rem, 0.446vw + 0.657rem, 1.3rem) !important;
+    padding: 2% !important;
+  }
+
+  .hero-section img {
+    width: 100% !important;
+    height: 80vh !important;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%) !important;
+  }
+
+  .hero-section {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%) !important;
+  }
+
+  .hero-content {
+    width: 80% !important;
+    top: 30% !important;
+    left: 10% !important;
+    text-align: center !important;
+  }
+
+  .hero-content h3 {
+    line-height: 1.1 !important;
+  }
+
+  .left-shape {
+    width: 15rem !important;
+    height: 4rem !important;
+    top: 84% !important;
+  }
+
+  .right-shape {
+    width: 15rem !important;
+    height: 4rem !important;
+    top: 72% !important;
+  }
+
+  .small-left-shape {
+    width: 10rem !important;
+    height: 2.5rem !important;
+    top: 95% !important;
+  }
+
+  .small-right-shape {
+    width: 10rem !important;
+    height: 2.5rem !important;
+    top: 83% !important;
+  }
+
+  .small-left-shape::after {
+    left: 8.5rem !important;
+    height: 120% !important;
+  }
+
+  .small-right-shape::after {
+    right: 8.5rem !important;
+    height: 120% !important;
+  }
+
+  .team-section {
+    margin-top: -3rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .hex-container {
+    display: none !important;
+  }
+
+  .hex-border-container {
+    display: none !important;
+  }
+
+  .card-section {
+    padding: 3rem 0 !important;
+  }
+
+  .card-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 2rem !important;
+    width: 95% !important;
+  }
+
+  .card-heading {
+    margin-bottom: 3rem !important;
+  }
+
+  .small-card {
+    width: 90% !important;
+    max-width: 350px !important;
+    flex: none !important;
+    height: auto !important;
+    min-height: 25rem !important;
+    padding: 2rem !important;
+  }
+
+  .small-card i {
+    width: 80px !important;
+    height: 80px !important;
+    font-size: 2.5rem !important;
+    padding-top: 20px !important;
+  }
+
+  .investor-section {
+    height: 35rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .investor-section h1 {
+    font-size: 1.3rem !important;
+  }
+
+  .investor-section p {
+    width: 80% !important;
+      font-size: 0.8rem !important;
+  }
+
+  .image-bar {
+    gap: 2rem !important;
+  }
+
+  .image-bar .investor-1 {
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+
+  .image-bar .investor-2 {
+    width: 4.5rem !important;
+    height: 4.5rem !important;
+  }
+
+  .image-bar .investor-3 {
+    width: 4rem !important;
+    height: 3.5rem !important;
+  }
+
+  .work-section {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+   .work-content h1 {
+    width: 90% !important;
+    font-size: 1.2rem !important;
+  }
+  .work-content p {
+    width: 90% !important;
+    font-size: 0.8rem !important;
+  }
+
+  .two-tiles {
+    gap: 1.5rem !important;
+  }
+
+  .tile-1,
+  .tile-2 {
+    font-size: 0.6rem !important;
+    width: 90% !important;
+    padding: 1.5rem 1.5rem !important;
+  }
+
+  .tile-1 i {
+    margin-left: 2rem !important;
+  }
+
+  .tile-2 i {
+    margin-left: 2rem !important;
+  }
+
+  .hexagon-under {
+    display: none !important;
+  }
+
+  .greeting-section {
+    height: 35rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .corner-hexa-1,
+  .corner-hexa-2,
+  .corner-hexa-3 {
+    display: none !important;
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  .corner-hexa-1 {
+    top: 1.5rem !important;
+    left: 3rem !important;
+  }
+
+  .corner-hexa-2 {
+    top: 6rem !important;
+    left: 3rem !important;
+  }
+
+  .corner-hexa-3 {
+    top: 4rem !important;
+    left: 7rem !important;
+  }
+
+  .newsletter {
+    width: 80% !important;
+    margin: 2rem auto !important;
+    margin-top: -8% !important;
+    height: auto !important;
+    min-height: 8rem !important;
+  }
+
+  .newsletter .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .newsletter-content {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    padding-left: 6.5rem !important;
+  }
+
+  .newsletter-design {
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: 1rem !important;
+  }
+
+  .footer {
+    padding-top: 6rem  !important;
+    padding-bottom: 2rem  !important;
+  }
+
+  .footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .footer-content {
+    flex-direction: column !important;
+    padding-top: 0 !important;
+    gap: 2rem !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot-4,
+  .foot-5,
+  .foot-6 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foot-6 ul {
+    justify-content: center !important;
+  }
+
+  .sub-footer {
+    text-align: center !important;
+  }
+
+  .sub-footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+/* ------ 480 PX DEVICES ------  */
+@media screen and (max-width: 480px) {
+  * {
+    box-sizing: border-box !important;
+  }
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+
+  header {
+    align-items: center !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0.5rem 0 !important;
+  }
+
+  .logo img {
+    width: 80% !important;
+    margin-left: 10% !important;
+    padding: 2% !important;
+  }
+
+  .nav-links ul {
+    display: none !important;
+  }
+
+  #menu_icon {
+    display: block !important;
+    cursor: pointer !important;
+    color: white !important;
+    font-size: clamp(1rem, 0.446vw + 0.657rem, 1.3rem) !important;
+    padding: 2% !important;
+  }
+
+  .hero-section img {
+    width: 100% !important;
+    height: 75vh !important;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%) !important;
+  }
+
+  .hero-section {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%) !important;
+  }
+
+  .hero-content {
+    width: 90% !important;
+    top: 30% !important;
+    left: 5% !important;
+    text-align: center !important;
+  }
+
+  .hero-content h3 {
+    line-height: 1 !important;
+  }
+
+  .left-shape {
+    width: 12rem !important;
+    height: 3rem !important;
+    top: 83% !important;
+  }
+
+  .right-shape {
+    width: 12rem !important;
+    height: 3rem !important;
+    top: 75% !important;
+  }
+
+  .small-left-shape {
+    width: 8rem !important;
+    height: 2rem !important;
+    top: 92% !important;
+  }
+
+  .small-right-shape {
+    width: 8rem !important;
+    height: 2rem !important;
+    top: 82% !important;
+  }
+
+  .small-left-shape::after {
+    left: 6.5rem !important;
+    height: 100% !important;
+  }
+
+  .small-right-shape::after {
+    right: 6.5rem !important;
+    height: 100% !important;
+  }
+
+  .team-section {
+    margin-top: -2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .hex-container {
+    display: none !important;
+  }
+
+  .hex-border-container {
+    display: none !important;
+  }
+
+  .card-section {
+    padding: 2rem 0 !important;
+  }
+
+  .card-section .container {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
+  }
+
+  .card-heading {
+    margin-bottom: 2rem !important;
+  }
+
+  .small-card {
+    width: 100% !important;
+    max-width: 300px !important;
+    flex: none !important;
+    height: auto !important;
+    min-height: 22rem !important;
+    padding: 1.5rem !important;
+  }
+
+  .small-card i {
+    width: 70px !important;
+    height: 70px !important;
+    font-size: 2rem !important;
+    padding-top: 18px !important;
+  }
+
+  .small-card h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .small-card p {
+    font-size: 0.8rem !important;
+  }
+
+  .investor-section {
+    height: 35rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .investor-section h1 {
+    font-size: 1.3rem !important;
+  }
+
+  .investor-section p {
+    width: 90% !important;
+    font-size: 1rem !important;
+  }
+
+  .image-bar {
+    gap: 1.5rem !important;
+    flex-wrap: wrap !important;
+  }
+
+  .image-bar .investor-1 {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  .image-bar .investor-2 {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+
+  .image-bar .investor-3 {
+    width: 3.5rem !important;
+    height: 3rem !important;
+  }
+
+  .work-section {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .work-content h1 {
+    font-size: 1.3rem !important;
+  }
+
+  .work-content p {
+    width: 95% !important;
+    font-size: 0.8rem !important;
+  }
+
+  .two-tiles {
+    gap: 1rem !important;
+  }
+
+  .tile-1,
+  .tile-2 {
+    position: relative !important;
+    width: 100% !important;
+    padding: 1rem 1rem !important;
+    font-size: 0.4rem !important;
+  }
+
+  .tile-1 i {
+  align-items: center !important;
+    margin-left: 10rem !important;
+  }
+
+  .tile-2 i {
+   
+    margin-left: 2rem !important;
+  }
+
+  .hexagon-under {
+    display: none !important;
+  }
+
+  .greeting-section {
+    height: 30rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .corner-hexa-1,
+  .corner-hexa-2,
+  .corner-hexa-3 {
+   display: none !important;
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+
+  .corner-hexa-1 {
+    top: 1rem !important;
+    left: 2rem !important;
+  }
+
+  .corner-hexa-2 {
+    top: 4.5rem !important;
+    left: 2rem !important;
+  }
+
+  .corner-hexa-3 {
+    top: 3rem !important;
+    left: 5.5rem !important;
+  }
+
+  .newsletter {
+    width: 90% !important;
+    margin: 1rem auto !important;
+    margin-top: -6% !important;
+    height: auto !important;
+    min-height: 7rem !important;
+    padding: 1rem !important;
+  }
+
+  .newsletter .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .newsletter-content {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0.5rem !important;
+  }
+
+  .newsletter-content h2 {
+    font-size: 1.1rem !important;
+    margin-left: 2rem !important;
+  }
+
+  .newsletter-content p {
+    font-size: 0.9rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .newsletter-design {
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: 0.5rem !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .newsletter-design button {
+    padding: 0.5rem 1.5rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .footer {
+
+    padding-top: 8rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .footer-content {
+    flex-direction: column !important;
+    padding: 0 1rem !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .foot-1,
+  .foot-2,
+  .foot-3,
+  .foot-4,
+  .foot-5,
+  .foot-6 {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foot-6 ul {
+    justify-content: center !important;
+    gap: 1rem !important;
+  }
+
+  .sub-footer {
+    text-align: center !important;
+    padding: 1rem 0 !important;
+  }
+
+  .sub-footer .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .sub-footer p {
+    padding: 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+}
